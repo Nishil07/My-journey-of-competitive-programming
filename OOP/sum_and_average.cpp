@@ -1,3 +1,7 @@
+/* Questio: Write C++ code to find the sum and average of n numbers using classes and objects*/
+
+
+//Solution:
 #include<iostream>
 using namespace std;
 
