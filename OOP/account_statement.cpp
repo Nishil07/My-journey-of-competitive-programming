@@ -1,3 +1,8 @@
+/* Question: Create a class account that maintains acc_no, name, and balance. Perform deposit,
+   withdrawal and transaction statement print operations.*/
+
+//Solution:
+
 #include<iostream>
 using namespace std;
 
