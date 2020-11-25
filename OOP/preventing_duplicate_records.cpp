@@ -1,3 +1,8 @@
+/* Question: Create a class that registers your details by taking reg.no, name, and age and mail id.
+Create a function that prevents duplicate entries of objects based on reg.no.*/
+
+// Solution: 
+
 #include<iostream>
 using namespace std;
 
