@@ -1,3 +1,11 @@
+/* Question: Create 2 classes one holding the personal details of the student (like regno, school, branch,
+address and phone no) and another holding the students’ academic performance (regno,
+semester, backlogs, CGPA, remarks). Inherit the classes personal and academic performance
+in a new class communication (communication ID, date, and sent by). Display the
+communication object to the parent with all the information.*/
+
+//Solution:
+
 #include<iostream>
 using namespace std;
 
