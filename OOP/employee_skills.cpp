@@ -1,3 +1,13 @@
+/* Question: Create a class employee that maintains the details like empid, years of exp, address, and
+phone). Create separate class for type of skills the employee possesses like carpentry (what
+type of wood, years, type of creations, tools used), masonry (type of constructions, years),
+Driving (license no, years of exp, types of vehicles). Make the employee class to inherit the
+three classes and have the details that are relevant for the employee. Have constructors to
+initialize all the classes and maintain the status in employee according to the skills (111- means
+have all skills). If a skill status is 0, then have the default values initialized with constructor. */
+
+//SOlution:
+
 #include<iostream>
 using namespace std;
 
