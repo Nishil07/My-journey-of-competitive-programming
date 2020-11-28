@@ -1,3 +1,10 @@
+/* Question: Create a C++ program that finds sum of all the digits of a number or a string up to a single
+digit by overloading functions. For strings the ASCII equivalents must be added together up to
+single digit and the corresponding digit’s character must be displayed as output. */
+
+//Solution:
+
+
 #include<iostream>
 using namespace std;
 
