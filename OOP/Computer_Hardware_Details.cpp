@@ -1,3 +1,10 @@
+/* Question: Create a class that stores details about the computer (Assembled/branded, RAM, HDD,
+processor speed, price etc.). Use constructors to initialize the object and a destructor that
+deducts the count of object each time the object is passed to destroy function. Also use copy
+constructor to create a system with the configuration same as that’s of an existing system. */
+
+//Solution:
+
 #include<iostream>
 using namespace std;
 static int count=0;
