@@ -23,3 +23,16 @@ Types:
 5.distance(first_iterator,desired_position) – It returns the distance of desired position from the first iterator.This function is very useful while finding the index.
 
                                                             Array Algorithms
+1.all_of()-This function operates on whole range of array elements It checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
+2.any_of()-function is used to check one condition, that is true for at least one element of a container.
+3.none_of()-function is used to check whether no element of a container is satisfies the given condition.
+4.copy_n()-function is used to copy elements of one array into another array.
+5.itoa()-function is used assign continuous values into array. This function is present under #include<numeric>. It takes three arguments. The array name, size and the starting value.
+
+                                                            Partition Algoritms
+1.partition(beg, end, condition)-This function is used to partition the elements on basis of condition mentioned in its arguments.
+2.is_partitioned(beg, end, condition)-This function returns boolean true if container is partitioned else returns false.
+3.stable_partition(beg, end, condition)-This function is used to partition the elements on basis of condition mentioned in its arguments in such a way that the relative order of the elements is preserved.
+4.partition_point(beg, end, condition)-This function returns an iterator pointing to the partition point of container i.e. the first element in the partitioned range [beg,end) for which condition is not true. The container should already be partitioned for this function to work.
+5.partition_copy(beg, end, beg1, beg2, condition)- This function copies the partitioned elements in the differenet containers mentioned in its arguments. 
+                                                   It takes 5 arguments. Beginning and ending position of container, beginning position of new container where elements have to be copied (elements returning true for condition), beginning position of new container where other elements have to be copied (elements returning false for condition) and the condition. Resizing new containers is necessary for this function.
