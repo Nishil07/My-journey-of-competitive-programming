@@ -36,3 +36,12 @@ Types:
 4.partition_point(beg, end, condition)-This function returns an iterator pointing to the partition point of container i.e. the first element in the partitioned range [beg,end) for which condition is not true. The container should already be partitioned for this function to work.
 5.partition_copy(beg, end, beg1, beg2, condition)- This function copies the partitioned elements in the differenet containers mentioned in its arguments. 
                                                    It takes 5 arguments. Beginning and ending position of container, beginning position of new container where elements have to be copied (elements returning true for condition), beginning position of new container where other elements have to be copied (elements returning false for condition) and the condition. Resizing new containers is necessary for this function.
+                                                   
+                                                                ValArrays
+1.apply()- This function applies the manipulation given in its arguments to all the valarray elements at once and returns a new valarray with manipulated values.
+2.sum()- This function returns the summation of all the elements of valarrays at once.
+3.min()- This function returns the smallest element of valarray.
+4.max()- This function returns the largest element of valarray.
+5.shift()- This function returns the new valarray after shifting elements by the number mentioned in its argument. If the number is positive, left-shift is applied, if number is negative, right-shift is applied.
+6.cshift()- This function returns the new valarray after circularly shifting(rotating) elements by the number mentioned in its argument. If the number is positive, left-circular shift is applied, if number is negative, right-circular shift is applied.
+7.swap()- This function swaps one valarray with other.
