@@ -18,3 +18,23 @@ resize(n) – Resizes the container so that it contains ‘n’ elements.
 empty() – Returns whether the container is empty.
 shrink_to_fit() – Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.
 reserve() – Requests that the vector capacity be at least enough to contain n elements.
+
+3.Element Access
+
+reference operator [g] – Returns a reference to the element at position ‘g’ in the vector
+at(g) – Returns a reference to the element at position ‘g’ in the vector
+front() – Returns a reference to the first element in the vector
+back() – Returns a reference to the last element in the vector
+data() – Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
+
+4.Modifiers
+
+assign() – It assigns new value to the vector elements by replacing old ones
+push_back() – It push the elements into a vector from the back
+pop_back() – It is used to pop or remove elements from a vector from the back.
+insert() – It inserts new elements before the element at the specified position
+erase() – It is used to remove elements from a container from the specified position or range.
+swap() – It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
+clear() – It is used to remove all the elements of the vector container
+emplace() – It extends the container by inserting new element at position
+emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector
