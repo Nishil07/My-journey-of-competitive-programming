@@ -6,8 +6,8 @@ def getMinDiff(arr, n, k):
             x+=1
             if(x==n-1):
                 break
-        for x in range(x,n):
-            mn = min(arr[0] + k, arr[x] - k)
-            mx = max(arr[n-1] - k,arr[x-1] + k)
+        for i in range(x,n):
+            mn = min(arr[0] + k, arr[i] - k)
+            mx = max(arr[n-1] - k,arr[i-1] + k)
             ans = min(mx - mn,ans)
         return ans
