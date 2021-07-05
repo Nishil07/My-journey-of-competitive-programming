@@ -3,9 +3,6 @@
 
 def commonElements (self,A, B, C, n1, n2, n3):
         A = set(A).intersection(set(B))
-        A = set(A).intersection(set(C))
-        if(len(list(A))==0):
-            return []
-        A = list(A)
+        A = list(set(A).intersection(set(C)))
         A.sort()
         return A
